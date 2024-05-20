@@ -1,0 +1,10 @@
+name: Custom
+
+on: [push]
+
+jobs:
+  main: 
+    runs-on: unbuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: davejjohn/custom-action@main
